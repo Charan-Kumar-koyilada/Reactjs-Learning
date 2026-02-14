@@ -1,0 +1,68 @@
+What is React Js?
+
+It is basically a Js Library .
+Used to make UI .
+
+Importance:-
+
+1.It is developed by META in 2013 .
+2.It is used to build complex Frontend Tasks.
+
+Reasons to develop :- 
+
+Back in 2012 : We used Basic Frontend Tech like HTMl,CSS,JAVASCRIPT.
+
+1.Users has to reload the entire app to load new changes in the Application ,this was time consuming and unncessary as well
+has it caused a lot of latency and cannot be done regularly as it undermined user experience due to REACT JS Was developed 
+and IT was developed using a Component Based Architecture. 
+
+Example for a Drawback :- 
+
+In the intial Facebook back in 2012 ,whenever we received a new message we had to reload the entire app to get the new message 
+loaded to our feed ,this a major drawback of using Basic Frontend Tech.
+
+Concepts Required to Cover React js for a Smooth Transition from JAVASCRIPT:
+
+1.Basics
+2.Functions 
+3.Arrays
+4.Objects
+5.ES6+ Features
+6.Asynchronous JAVASCRIPT
+
+Difference between a Library and Framework:
+
+Library is specifically used to develop one feature for a website ,for Example:
+  1. GSAP:- Used for moving Animations in Websites
+  2. Lenis:-Used for Smooth Scrolling inside the Websites.
+  3. Reactjs :- Used for building UI for Websites.
+
+Framework is specifically used to develop :- 
+
+ 1.Everything we need to build a Website or Application is given in itself,we don't get a lot of options to customization.
+
+ Example:- 
+ 1.Angular
+ 2.Nextjs
+
+ Difference between Real and Virtual DOM {Document Object Model}:-
+
+ 1.REal Dom is used to refer to the traditional HTML CSS JS model ,where we need to re render the entire even if we have to change a single 
+ element value in the webpage.
+ 2.Whereas in virtual DOM,we don't have to do that only the component which needs change is re rendered hence overcomes the problem with REAL DOM.
+
+
+Importance of JSX:-
+
+
+1.This is basically a New file format which is basically used to write Html and JS inside a single file .
+
+Syntax :-
+
+var h1 = <h1>HEllo world </h1> //For variable
+
+Function abc()
+{
+    console.log('hello");
+}
+<abc />
