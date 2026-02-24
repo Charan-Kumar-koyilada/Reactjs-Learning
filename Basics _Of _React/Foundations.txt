@@ -66,3 +66,17 @@ Function abc()
     console.log('hello");
 }
 <abc />
+
+*We use vite to create folders inside the React js Library
+
+->It is a bundler which is used to create a folder structure for a React app.
+
+->WE previously we used the command  create-react-app to create the folder structure.
+
+->{Things to be explored in Detail in docs :- Vite ,Frameowork, Library, real life use cases of React}
+
+->Latest Vite Command:-
+  npm create vite 
+
+
+
