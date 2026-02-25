@@ -78,5 +78,7 @@ Function abc()
 ->Latest Vite Command:-
   npm create vite 
 
+Props drilling ::- 
 
+1.This is a method in which there is way to showcase there contents in the same Component at different instances.
 

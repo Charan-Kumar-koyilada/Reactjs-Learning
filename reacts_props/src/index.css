@@ -1,0 +1,31 @@
+.parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card p {
+  gap: 10px;
+}
