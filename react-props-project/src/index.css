@@ -1,0 +1,142 @@
+/* ===== Page Background ===== */
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle at top left, #1e293b, #0f172a);
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  flex-wrap: wrap;
+}
+
+/* ===== Card Container ===== */
+.card {
+  height: 330px;
+  width: 250px;
+  background: rgba(30, 41, 59, 0.65);
+  backdrop-filter: blur(18px);
+  border-radius: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* ===== Top Section ===== */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.top button:hover {
+  opacity: 0.85;
+}
+
+/* ===== Center Section ===== */
+.center {
+  background: linear-gradient(135deg, #2563eb, #06b6d4);
+  padding: 18px;
+  border-radius: 18px;
+  justify-content: space-between;
+  color: white;
+}
+
+.center h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.center h3 span {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.center div {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.center h4 {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ===== Bottom Section ===== */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 18px;
+}
+
+.bottom h3 {
+  color: #f9fafb;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bottom p {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.bottom button {
+  background: linear-gradient(135deg, #10b981, #22c55e);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.bottom button:hover {
+  transform: scale(1.05);
+}
