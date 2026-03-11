@@ -8,17 +8,13 @@ import Footer from "./components/footer.jsx";
 
 const App = () => {
   return (
-    <div>
-      <Layout>
-        <Navbar />
+    <Layout>
+      <Hero />
 
-        <Hero />
+      <Features />
 
-        <Features />
-
-        <Footer />
-      </Layout>
-    </div>
+      <Footer />
+    </Layout>
   );
 };
 
