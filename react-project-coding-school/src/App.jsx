@@ -1,6 +1,5 @@
 import React from "react";
 import Section1 from "./components/section-1/section-1";
-import Section2 from "./components/section-1/section-2/section-2";
 
 function App() {
   const users = [
@@ -19,11 +18,17 @@ function App() {
       intro: "",
       tag: "Underbanged",
     },
+    {
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHqAIkNLLfv_sTX2pHYzt6lxC84d7CkOgnuA&s",
+      intro: "",
+      tag: "Unestimated",
+    },
   ];
   return (
     <>
-      <Section1 users={users} />
-      <Section2 />
+      <div className="h-screen">
+        <Section1 users={users} />
+      </div>
     </>
   );
 }

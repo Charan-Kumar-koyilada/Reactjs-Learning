@@ -20,7 +20,7 @@ const Rightcard = (props) => {
           flex
           justify-center"
         >
-          1
+          {props.id + 1}
         </h2>
         <p className="text-lg leading-relaxed text-white mt-110">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus a et
